@@ -2,7 +2,7 @@
 
 Para iniciar o projeto insira o comando:
 ```
-npm run dev
+npm start
 ```
 
 ## 💻 Projeto
