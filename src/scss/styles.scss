@@ -1,1 +1,14 @@
 @import "bootstrap/scss/bootstrap";
+
+$blue-300: #4F55DF;
+$orange-300: #FF6D4C;
+$pink-400: #F12F9E;
+$pink-500: #E430A5;
+
+.bg-gradient-primary {
+  background: linear-gradient(180deg, var(--Orange-300, #FF6D4C) 0%, var(--Pink-400, #F12F9E) 100%);
+}
+
+.bg-gradient-secondary {
+  background: linear-gradient(180deg, var(--Blue-300, #4F55DF) 0%, var(--Pink-500, #E430A5) 100%);
+}
