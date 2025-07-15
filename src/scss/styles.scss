@@ -12,3 +12,72 @@ $pink-500: #E430A5;
 .bg-gradient-secondary {
   background: linear-gradient(180deg, var(--Blue-300, #4F55DF) 0%, var(--Pink-500, #E430A5) 100%);
 }
+
+.card-indicator {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 1.25rem;
+  min-width: 8rem;
+}
+
+.card-indicator-right {
+  top: 0;
+  right: -20%;
+}
+
+.card-indicator-left {
+  bottom: 0;
+  left: -30%;
+}
+
+@include media-breakpoint-only(md) {
+  .banner {
+    img {
+      width: 75%;
+    }
+  }
+
+  .card-indicator-left {
+    bottom: -15%;
+    left: -15%;
+  }
+
+  .card-indicator-right {
+    right: -10%;
+  }
+}
+
+@include media-breakpoint-between(xs, sm) {
+  .card-indicator {
+    min-width: 0;
+  }
+
+  .card-indicator-left {
+    bottom: -25%;
+    left: -5%;
+  }
+
+  .card-indicator-right {
+    top: -15%;
+    right: -2rem;
+  }
+}
+
+@media (max-width: 476px) {
+  .card-indicator-left {
+    bottom: -15%;
+    left: 0;
+  }
+
+  .card-indicator-right {
+    top: -15%;
+    right: 5%;
+  }
+
+  .banner {
+    img {
+      width: 100%;
+    }
+  }
+}
