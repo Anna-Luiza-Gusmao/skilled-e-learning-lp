@@ -1,7 +1,5 @@
-import { resolve } from 'path'
-
 export default {
-  root: resolve(__dirname, 'src'),
+  root: 'docs',
   build: {
     outDir: '../dist'
   },
