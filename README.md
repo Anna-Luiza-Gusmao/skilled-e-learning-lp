@@ -1,3 +1,7 @@
+<p align="center">
+  <img alt="Capa Skilled E-learning" src="./.github/capa.png" width="100%">
+</p>
+
 ## 🎉 Let's go!
 
 Para iniciar o projeto insira o comando:
